@@ -1,0 +1,134 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&display=swap');
+
+.maincontainer{
+  display: flex;
+  box-shadow: 0px 0px 4px 2px rgba(111, 111, 218, 0.058);
+  width: 550px;
+  margin: 130px auto;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.resultcon{
+  width: 45%;
+  background-image:linear-gradient( to bottom , hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: inherit;
+  padding:20px;
+  text-align: center;
+  color: rgb(216, 204, 204);
+}
+
+
+.marks{
+  border-radius: 100%;
+  width: 60px;
+  padding: 40px;
+  margin: 20px auto;
+  font-size: 0.8em;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.marks >span{
+  font-size: 40px;
+  color: white;
+}
+
+.greatclass{
+  color: white;
+  letter-spacing: 2px;
+}
+
+.highsc{
+  font-size: 0.7em;
+  width: 78%;
+  margin:0.8rem auto 0 ;
+  letter-spacing: 1px;
+}
+
+.summarycon{
+  margin:30px;
+}
+
+.summary{
+  color: hsl(224, 30%, 27%);
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  margin: 10px;
+  width: 100%;
+  padding: 10px ;
+  padding-right: 20px;
+  margin-left: -10px;
+  border-radius: 10px;
+  font-size: 0.8em;
+  
+}
+
+li span{
+  float: right;
+  margin-left: 2.5em;
+  color:  hsl(227, 26%, 32%);
+}
+
+
+
+.reaction{
+ background-color:  hsla(0, 100%, 67%, 0.225);
+ color:hsl(0, 100%, 67%) ;
+}
+
+.memory{
+  color: hsl(39, 100%, 56%);
+  background-color:  hsla(39, 100%, 56%, 0.225);
+}
+
+.verbal{
+  color: hsl(166, 100%, 37%);
+  background-color: hsla(166, 100%, 37%, 0.225);
+}
+
+.visual{
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(234, 85%, 45%,0.225);
+}
+
+button{
+  width: 100%;
+  border-radius: 10px;
+  padding: 13px;
+  border: unset;
+  color: rgb(255, 255, 255);
+  background-color: hsl(224, 30%, 27%);
+}
+
+button:hover{
+  background-image:linear-gradient( to bottom , hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  cursor:pointer;
+}
+
+@media screen and (max-width:565px) {
+
+  .maincontainer{
+    width: 100vw;
+    flex-direction: column;
+    margin-top: -20px;
+    overflow: hidden;
+    border: unset;
+  }
+  .resultcon{
+    width: 90%;
+    padding-top: 40px;
+  }
+  .summarycon{
+    margin:30px auto;
+    width: 75%;
+  }
+}
