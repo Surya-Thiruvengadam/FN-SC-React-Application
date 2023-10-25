@@ -9,6 +9,7 @@
   border-radius: 30px;
   font-size: 18px;
   font-family: 'Hanken Grotesk', sans-serif;
+  transform: scale(1.4);
 }
 
 .resultcon{
@@ -122,6 +123,7 @@ button:hover{
     margin-top: -20px;
     overflow: hidden;
     border: unset;
+    transform: unset;
   }
   .resultcon{
     width: 90%;
